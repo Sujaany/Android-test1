@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="order Pizza" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="View Menu" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Todays Offers" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="Extras" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>
